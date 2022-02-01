@@ -34,7 +34,7 @@ function makediv(){
     container.id = "dynamic-block";
 
     // append this container
-    document.getElementById("grid-container1").appendChild(container);
+    document.getElementsByClassName("grid-container1").appendChild(container);
 
     //to display the selected item
 
